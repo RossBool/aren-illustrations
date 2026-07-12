@@ -5,8 +5,10 @@
 ```text
 Generate one standalone 16:9 horizontal Chinese article illustration.
 
-[IDENTITY-5-CORE — 5 核心元素硬约束，最前以保证 token 权重]
-A cute anime teenage boy character named 'Aren' with the following EXACT features (all 5 are non-negotiable identity anchors — all 5 MUST appear visibly, missing any is wrong):
+[IDENTITY-5-CORE — 5 核心元素默认推荐（2026-07-13 降级·可作变体）]
+A cute anime teenage boy character named 'Aren'. The following 5 features are the DEFAULT appearance (used in 80% of cases to keep IP consistency), but ALL 5 are explicitly ALLOWED to be varied when the metaphor demands it. To vary, explicitly state which features are different in the prompt (e.g. "Aren WITHOUT round glasses" or "Aren as a sandglass grain" or "Aren with wings").
+
+DEFAULT 5 features (omit any you want to vary):
 
 1. KAMEYAMA-STYLE large ROUND glasses: perfect CIRCULAR frame (height equals width, ratio 1:1), the frame DOMINATES the upper face (very large, similar to 'Ninja Hattori' Kanzo's glasses or Mitsuba Sougo's glasses), thin black metal frame
 2. FLUFFY black hair: short-to-medium length (ear to shoulder), soft air-textured tousled messy strands with VISIBLE volume (like after running, NOT slicked back, NOT triangle-cut, NOT anime-protagonist spike)
@@ -14,8 +16,9 @@ A cute anime teenage boy character named 'Aren' with the following EXACT feature
 4. SOFT orange-pink blush: oval on both cheeks only, peachy-orange color (salmon-peach like hex #FFA07A, NOT bright red, NOT pink, NOT spreading), the ONLY pink color on the face
 5. Q-VERSION chibi body: head-to-body ratio 1:2.5 (big head, small body, like a trading figure or Nendoroid — NOT realistic 1:7, NOT normal 1:5)
 
-[AVOID — 软负向约束]
-AVOID: realistic body proportions, bright red cheeks, leather motorcycle jacket, spiky hair, rectangular glasses, chuunibyou or angry expression, sweat drops, exaggerated blush, open mouth, big smile
+[AVOID — 仅默认路径需避开的跑偏，变体路径可忽略]
+AVOID (only when using default 5 features): realistic body proportions, bright red cheeks, leather motorcycle jacket, spiky hair, rectangular glasses, kawaii mascot
+AVOID (always, even in variants): open mouth, big smile, kawaii mascot, exaggerated blush, sweat drops
 
 [Visual DNA]
 Pure white background. Minimalist black pencil line art with Shinkai-style colored-pencil coloring on skin and objects. Slight wobbly hand-drawn pen lines. Visible pencil grain/strokes in color fill. Lots of empty white space. Sparse red/orange/blue handwritten Chinese annotations. Clean absurd product-sketch feeling. No gradients, no shadows, no paper texture, no complex background, no commercial vector style, no PPT infographic look, no cute mascot poster, no children's illustration, no realistic UI, no 3D render, no anime style exaggeration.
