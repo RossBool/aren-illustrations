@@ -29,3 +29,9 @@ local/
 test/
 scratch/
 *.test.png
+
+# character-refs-diff 脚本的临时产物
+imgs/
+matrix-media-*.png
+__pycache__/
+*.pyc
