@@ -1,0 +1,6 @@
+interface:
+  display_name: "阿任中文配图"
+  short_description: "为中文文章生成怪诞清爽、阿任彩铅手绘的正文配图资产（RossBool fork）"
+  default_prompt: "Use $aren-illustrations 为这篇中文文章设计并生成几张阿任怪诞正文配图。"
+policy:
+  allow_implicit_invocation: true

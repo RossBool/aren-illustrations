@@ -1,0 +1,31 @@
+# Build / system
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+desktop.ini
+
+# Personal / private
+# User's personal IP source images should NOT be committed
+# (put them in a local "private/" folder ignored by git)
+private/
+local/
+*.local.md
+
+# Test / scratch
+test/
+scratch/
+*.test.png
